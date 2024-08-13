@@ -1,0 +1,12 @@
+{
+  "name": "simulador-corridas-mario-kart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gabriel Eurico",
+  "license": "ISC",
+  "description": "Esse projeto tem como desafio, colocar em prática conhecimentos prévios em javascript, e introdução o nodeJS, como organização de diretórios "
+}
