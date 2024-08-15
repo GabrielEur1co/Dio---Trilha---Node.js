@@ -104,4 +104,5 @@
 
 <h3> 🛠 Implentações extras </h3>
 <br>
-<p> - Fiz o projeto orientado a objetos, para ter melhor manutenibilidadeade </p>
+<p> - Modularizei o projeto usando o padrão ESM, afim de dar manutenabilidade. </p>
+<p> - Fiz os perçonagens Orienteado a objeos. </p>
