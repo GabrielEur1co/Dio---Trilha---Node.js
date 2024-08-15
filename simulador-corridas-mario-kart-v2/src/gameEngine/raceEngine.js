@@ -2,6 +2,7 @@ import { player1, player2 } from "./players.js";
 import { rollDice } from "./rollDice.js";
 import { getRandomBlock } from "./getRandomBlock.js";
 import { logRollResult } from "./logRollResult.js";
+import { checkWinner } from "./checkWinner.js";
 
 export async function playRaceEngine(character1, character2) {
   for (let round = 1; round <= 5; round++) {
@@ -111,4 +112,9 @@ export async function playRaceEngine(character1, character2) {
       console.log(`-----------------------------------------------`);
     }
   }
+
+  checkWinner(player1,player2)
+
 }
+
+
