@@ -102,6 +102,6 @@
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
 
-<h3> 🛠 Implemntações extras </h3>
+<h3> 🛠 Implentações extras </h3>
 <br>
-<p> - Fiz o projeto orientado a objetos, para ter melhor manutenabilidade </p>
+<p> - Fiz o projeto orientado a objetos, para ter melhor manutenibilidadeade </p>
