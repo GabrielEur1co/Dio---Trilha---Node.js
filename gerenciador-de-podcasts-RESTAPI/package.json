@@ -1,0 +1,24 @@
+{
+  "name": "gerenciador-de-podcasts--restapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dist": "tsup ./src",
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env ./src/server.ts",
+    "start:dist": "npm run dist && --env-file=.env node/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "chalk": "^5.3.0",
+    "chalknpm": "^1.0.1",
+    "i": "^0.3.7",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
